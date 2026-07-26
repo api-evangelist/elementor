@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: https://elementor.com/changelog/
+scheme: semver
+current_version: 4.1.3
+notes: >-
+  Elementor publishes a dated public changelog for the plugin. Developer-facing
+  version notes are also posted as "Developers Update" articles on the developer
+  portal (e.g. developers.elementor.com/elementor-3-14-developers-update/).
+entries:
+- version: 4.1.3
+  date: '2026-07-14'
+  breaking: false
+  highlights:
+  - Resolved issues with atomic form content sections and template saving.
+- version: 4.1.2
+  date: '2026-06-23'
+  breaking: false
+  highlights:
+  - Corrected email action configuration when submitting atomic forms.
+- version: 4.1.1
+  date: '2026-06-08'
+  breaking: false
+  highlights:
+  - Fixed live-results item count on tablet/mobile and Lottie widget animation issues.
+- version: 4.1.0
+  date: '2026-05-26'
+  breaking: false
+  highlights:
+  - Added new form elements (radio, select, date/time pickers, file upload) and webhook support.
+- version: 4.0.4
+  date: '2026-04-28'
+  breaking: false
+  highlights:
+  - Fixed flexbox/div block compatibility with display conditions and RTL CSS editor issues.

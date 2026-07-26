@@ -1,8 +1,16 @@
 aid: elementor
 name: Elementor
-description: Elementor is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Elementor is a WordPress website builder that lets users design pixel-perfect
+  websites through a visual drag-and-drop editor, without writing code. Beyond
+  the core page builder it ships Elementor Pro, the Hello theme, a hosted
+  Elementor Cloud/Website offering, and an AI-assisted "Elementor One" plan set.
+  For developers, Elementor is an extensible platform rather than a hosted REST
+  API: it exposes a PHP extension surface (widgets, controls, dynamic tags, form
+  actions, hooks, and managers), a WP-CLI command set, an auto-generated PHP code
+  reference at code.elementor.com, and a family of first-party npm packages under
+  the @elementor scope (editor UI, icons, design tokens). This profile catalogs
+  Elementor's public developer and product surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/elementor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +18,79 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://elementor.com/marketing/wp-content/uploads/2021/09/Elementor-Logo-Symbol-Red.png
 tags:
 - Company
+- Website Builder
+- WordPress
+- Page Builder
+- No Code
+- Web Design
+- CMS
+- Developer Tools
+- Widgets
+- Extensibility
 apis: []
+common:
+- type: DomainSecurity
+  url: security/elementor-domain-security.yml
+- type: Website
+  url: https://elementor.com
+- type: DeveloperPortal
+  url: https://developers.elementor.com
+- type: Documentation
+  url: https://developers.elementor.com/docs/
+- type: APIReference
+  url: https://code.elementor.com/
+- type: GettingStarted
+  url: https://developers.elementor.com/docs/getting-started/
+- type: Support
+  url: https://elementor.com/help/
+- type: Blog
+  url: https://elementor.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/elementor
+- type: Pricing
+  url: https://elementor.com/pricing/
+- type: SignUp
+  url: https://my.elementor.com/signup/
+- type: TermsOfService
+  url: https://elementor.com/terms/tos/
+- type: PrivacyPolicy
+  url: https://elementor.com/terms/privacy/
+- type: Packages
+  url: packages/elementor-packages.yml
+- type: Components
+  url: components/elementor-components.yml
+- type: CLI
+  url: cli/elementor-cli.yml
+- type: ChangeLog
+  url: changelog/elementor-changelog.yml
+- type: Lifecycle
+  url: lifecycle/elementor-lifecycle.yml
+- type: Deprecation
+  url: https://developers.elementor.com/docs/deprecations/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

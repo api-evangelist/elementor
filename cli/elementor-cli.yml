@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: https://developers.elementor.com/docs/cli/
+name: Elementor WP-CLI
+description: >-
+  Elementor integrates with WP-CLI, enabling Elementor tasks to run from the
+  command line without a browser. Commands are invoked as `wp elementor <command>`
+  (core) or `wp elementor-pro <command>` (Pro). Requires a WordPress install with
+  the Elementor plugin active; not a standalone binary.
+install:
+- method: wp-cli
+  note: Ships with the Elementor plugin; available wherever WP-CLI can reach the WordPress install.
+invocation: "wp elementor <command> [--argument]"
+command_groups:
+- group: Library
+  commands:
+  - sync
+  - connect
+  - disconnect
+  - import
+  - import-dir
+- group: Kit
+  commands:
+  - import
+  - export
+- group: Site Maintenance
+  commands:
+  - system-info
+  - flush-css
+  - replace-urls
+  - update-db
+- group: Theme Builder
+  commands:
+  - clear-theme-builder-conditions
+- group: Experiments
+  commands:
+  - experiments-status
+  - experiments-activate
+  - experiments-deactivate
+- group: License (Pro)
+  commands:
+  - activate-license
+  - deactivate-license

@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/org/elementor
+notes: >-
+  First-party client-side UI component libraries Elementor publishes for building
+  and extending the editor experience. Distinct from server-side SDKs; these are
+  React/JS component and design-system packages consumed in the browser editor.
+families:
+- family: Design System / UI
+  loader: npm
+  components:
+  - name: "@elementor/ui"
+    url: https://www.npmjs.com/package/@elementor/ui
+    description: Reusable UI component library used across the Elementor editor.
+  - name: "@elementor/icons"
+    url: https://www.npmjs.com/package/@elementor/icons
+    description: Icon component/font library.
+  - name: "@elementor/design-tokens"
+    url: https://www.npmjs.com/package/@elementor/design-tokens
+    description: Design tokens (color, spacing, typography) underpinning the UI kit.
+- family: Editor Surfaces
+  loader: npm
+  components:
+  - name: "@elementor/editor-ui"
+    url: https://www.npmjs.com/package/@elementor/editor-ui
+    description: Editor UI building blocks.
+  - name: "@elementor/editor-canvas"
+    url: https://www.npmjs.com/package/@elementor/editor-canvas
+    description: Editor canvas surface.
+  - name: "@elementor/editor-app-bar"
+    url: https://www.npmjs.com/package/@elementor/editor-app-bar
+    description: App Bar extension surface for the editor.
+  - name: "@elementor/editor-components"
+    url: https://www.npmjs.com/package/@elementor/editor-components
+    description: Shared editor components.

@@ -1,0 +1,66 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/org/elementor
+notes: >-
+  Elementor is a WordPress plugin, not a hosted REST API, so it ships no
+  language API-client SDKs. Its first-party published packages are the plugin
+  itself (WordPress.org) and a family of editor/UI JavaScript libraries under
+  the @elementor npm scope (owned by Elementor). These are extension/UI
+  libraries, not API clients.
+packages:
+- language: php
+  registry: wordpress.org
+  name: elementor
+  url: https://wordpress.org/plugins/elementor/
+  install: wp plugin install elementor --activate
+  official: true
+  description: The core Elementor drag-and-drop WordPress page builder plugin.
+- language: javascript
+  registry: npm
+  name: "@elementor/ui"
+  url: https://www.npmjs.com/package/@elementor/ui
+  install: npm install @elementor/ui
+  official: true
+  description: Elementor UI components library used across the editor.
+- language: javascript
+  registry: npm
+  name: "@elementor/icons"
+  url: https://www.npmjs.com/package/@elementor/icons
+  install: npm install @elementor/icons
+  official: true
+  description: Elementor icons library.
+- language: javascript
+  registry: npm
+  name: "@elementor/design-tokens"
+  url: https://www.npmjs.com/package/@elementor/design-tokens
+  install: npm install @elementor/design-tokens
+  official: true
+  description: Elementor design tokens (colors, spacing, typography).
+- language: javascript
+  registry: npm
+  name: "@elementor/editor-ui"
+  url: https://www.npmjs.com/package/@elementor/editor-ui
+  install: npm install @elementor/editor-ui
+  official: true
+  description: Elementor editor UI package.
+- language: javascript
+  registry: npm
+  name: "@elementor/editor-canvas"
+  url: https://www.npmjs.com/package/@elementor/editor-canvas
+  install: npm install @elementor/editor-canvas
+  official: true
+  description: Elementor editor canvas package.
+- language: javascript
+  registry: npm
+  name: "@elementor/editor-app-bar"
+  url: https://www.npmjs.com/package/@elementor/editor-app-bar
+  install: npm install @elementor/editor-app-bar
+  official: true
+  description: App Bar extension for the Elementor editor.
+- language: javascript
+  registry: npm
+  name: "@elementor/events"
+  url: https://www.npmjs.com/package/@elementor/events
+  install: npm install @elementor/events
+  official: true
+  description: Elementor events package.

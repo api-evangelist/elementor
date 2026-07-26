@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://developers.elementor.com/docs/deprecations/
+versioning:
+  scheme: semver
+  current: 4.1.3
+  docs: https://elementor.com/changelog/
+deprecation:
+  policy_url: https://developers.elementor.com/docs/deprecations/
+  summary: >-
+    Gradual code-deprecation policy. Deprecated code is removed only after at
+    least 8 major versions, giving addon developers time to migrate. Three phases:
+    soft deprecation (a code comment marks the upcoming change), hard deprecation
+    (a PHP notice is emitted when WP_DEBUG is true), and deletion (the code is
+    removed and calling it may raise a fatal error).
+  mechanism: >-
+    A dedicated Deprecation PHP class (introduced in Elementor 3.1) handles all
+    developer notices and backwards-compatibility. Since 3.14 deprecated
+    functions/methods/classes carry @deprecated phpDoc/jsDoc tags so IDEs flag
+    them during development.
+  debug_constants:
+  - WP_DEBUG
+  - ELEMENTOR_DEBUG
+status_page: null
+sla: null
